@@ -1,6 +1,7 @@
 import React from 'react';
 import AppBar from '@material-ui/core/AppBar';
 import Toolbar from '@material-ui/core/Toolbar';
+import Typography from '@material-ui/core/Typography';
 
 // Hide on Scroll:
 import Slide from '@material-ui/core/Slide';
@@ -20,7 +21,9 @@ const Header = () => {
   return (
     <HideOnScroll>
       <AppBar>
-        <Toolbar>Material Ui</Toolbar>
+        <Toolbar>
+          <Typography variant='h4'>Material Ui</Typography>
+        </Toolbar>
       </AppBar>
     </HideOnScroll>
   );
