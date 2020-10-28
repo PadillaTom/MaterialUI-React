@@ -95,19 +95,52 @@ a {
 
 /* :::::::: App Bar ::::::: */
 
-.appbar:hover {
-  background: white;
-  transition: var(--MainTransition);
-}
-.hamburguer {
-  font-size: 2rem;
-  cursor: pointer;
-}
 /* End App Bar */
 
-/* :::::::: Dummy Sections ::::::: */
-.app-section,
-.app-section2 {
-  min-height: 100vh;
+/* :::::::: Banner Component ::::::: */
+.banner-slider {
+  height: 80vh;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.8);
 }
-/* End Dummy sections */
+.banner-imgs {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.banner-imgs-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: black;
+  opacity: 0.6;
+  z-index: 10;
+}
+/* End Banner Component */
+
+/* ::::::::  Component ::::::: */
+/* End  */
+
+/* ::::::::  Component ::::::: */
+/* End  */
+
+/* ::::::::  Component ::::::: */
+/* End  */
+
+/* ::::::::  Component ::::::: */
+/* End  */
+
+/* ::::::::  Component ::::::: */
+/* End  */
+
+/* ::::::::  Component ::::::: */
+/* End  */
+
+/* ::::::::  Component ::::::: */
+/* End  */
+
+/* ::::::::  Component ::::::: */
+/* End  */

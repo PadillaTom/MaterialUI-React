@@ -73,14 +73,14 @@ const Header = () => {
   return (
     <React.Fragment>
       <HideOnScroll>
-        <AppBar color='transparent' className='appbar'>
+        <AppBar color='primary' className='appbar'>
           <Toolbar>
             <Typography variant='h5'>Web Development</Typography>
             <Tabs
               className={classes.tabContainer}
               value={selectedTab}
               onChange={handleChange}
-              indicatorColor='transparent'
+              indicatorColor='primary'
             >
               <Tab
                 label='Home'
